@@ -6,6 +6,6 @@
 
 Import-Module -Name ImageHelpers -Force
 
-$exitcode = Install-MSI -MsiUrl "https://download.microsoft.com/download/9/2/2/9228AAC2-90D1-4F48-B423-AF345296C7DD/EN/x64/DacFramework.msi" -MsiName "DacFramework.msi"
+$exitcode = Install-MSI -MsiUrl "https://download.microsoft.com/download/0/3/b/03b8d8ae-02fe-41bb-8193-6d49896d6b66/EN/x64/DacFramework.msi" -MsiName "DacFramework.msi"
 
 exit $exitcode
